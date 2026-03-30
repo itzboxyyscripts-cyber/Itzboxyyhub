@@ -9,7 +9,7 @@ local RunService = game:GetService("RunService")
 
 local player = Players.LocalPlayer
 
-local VALID_KEY = "FREE_RAY"
+local VALID_KEY = "f2a94c7e1d6b3a8c0f5e9d2b7a1c4e6f"
 local DISCORD_LINK = "https://discord.gg/fY85GBAAW"
 
 -- ========================
