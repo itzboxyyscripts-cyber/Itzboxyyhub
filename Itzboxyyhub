@@ -1,8 +1,3 @@
---[[
-    Auto Green - Basketball Legends
-    Custom Key System + Rayfield UI
-]]
-
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
@@ -12,9 +7,6 @@ local player = Players.LocalPlayer
 local VALID_KEY = "f2a94c7e1d6b3a8c0f5e9d2b7a1c4e6f"
 local DISCORD_LINK = "https://discord.gg/fY85GBAAW"
 
--- ========================
--- Key System
--- ========================
 local keyGui = Instance.new("ScreenGui")
 keyGui.Name = "KeySystem"
 keyGui.ResetOnSpawn = false
@@ -160,9 +152,6 @@ end)
 
 repeat task.wait() until keyVerified
 
--- ========================
--- Rayfield UI
--- ========================
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/SiriusSoftwareLtd/Rayfield/main/source.lua'))()
 
 local visualGui = player.PlayerGui:WaitForChild("Visual")
